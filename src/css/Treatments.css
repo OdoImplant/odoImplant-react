@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header img {
+  margin: 2rem;
+  width: 60%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.title {
+  font-size: xx-large;
+  margin-bottom: 2rem;
+}
+.title span {
+  color: #00a893;
+}
+
+.ortodoncia-section {
+  margin: 4rem 3rem;
+}
+
+.ortodoncia-text {
+  color: rgba(0, 0, 0, 0.372);
+  margin: 4rem 3rem;
+}
+
+.ortodoncia-squares {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.ortodoncia-squares div {
+  width: 45%;
+  height: auto;
+}
