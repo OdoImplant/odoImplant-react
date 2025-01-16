@@ -195,10 +195,74 @@ function Home() {
           </p>
         </div>
         <div className="urgencias-sintomas">
-          <p>Sangrado continuo de la boca</p>
-          <p>Dolor severo dental</p>
-          <p>Daño o pérdida de un diente por traumatismo</p>
+          <ul>
+            <li>
+              <img
+                className="urg-icon"
+                src="src/assets/diente.png"
+                alt="diente"
+              />
+              <p>
+                <span>Sangrado</span> continuo de la boca
+              </p>
+            </li>
+            <li>
+              <img
+                className="urg-icon"
+                src="src/assets/urgencias.png"
+                alt="urgencias"
+              />
+              <p>
+                <span>Dolor</span> severo dental
+              </p>
+            </li>
+            <li>
+              <img
+                className="urg-icon"
+                src="src/assets/herramientas.png"
+                alt="tools"
+              />
+              <p>
+                <span>Daño o pérdida </span> de un diente por traumatismo
+              </p>
+            </li>
+          </ul>
         </div>
+      </section>
+      <section className="financiacion-tiempo-section">
+        <div className="financiacion-tiempo">
+          <section className="financiacion-section">
+            <div id="financiacion-text">
+              <div className="title">
+                <span>Financiación </span>
+              </div>
+              <p>
+                Somos conscientes de que los tratamientos dentales pueden tener
+                un coste elevado, es por eso que nos adaptamos al paciente al
+                máximo. Contamos con distintos planes de pagos y ofrecemos
+                financiación hasta veinticuatro meses sin intereses.
+              </p>
+            </div>
+          </section>
+          <section className="tiempo-section">
+            <div id="tiempo-text">
+              <div className="title">
+                <span>Falta</span> de tiempo
+              </div>
+              <p>
+                ¿Tienes problemas con los horarios o no tienes tiempo para
+                visitarte? No te preocupes, en Odo Implant ofrecemos la
+                posibilidad de agrupar varios tratamientos en una sola sesión o
+                en el mínimo posible para que no tengas que venir tantas veces.
+              </p>
+            </div>
+          </section>
+        </div>
+        <img
+          className="pasillo-img"
+          src="src/assets/pasillo.JPG"
+          alt="pasillo"
+        />
       </section>
     </>
   );

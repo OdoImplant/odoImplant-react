@@ -47,7 +47,7 @@
 
 .experience-section {
   display: flex;
-  margin: 3rem;
+  margin: 6rem 3rem;
 }
 .experience-section img {
   filter: grayscale(100%);
@@ -86,13 +86,14 @@
 }
 
 .aparatologia-section {
-  margin: 3rem;
+  margin: 6rem 3rem;
   display: flex;
 }
 
 #aparatología-text {
   margin-left: 4rem;
   margin-right: 3rem;
+  color: rgba(0, 0, 0, 0.372);
 }
 
 .title {
@@ -111,14 +112,60 @@
 
 .urgencias-section {
   display: flex;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 #urgencias-text {
   padding-right: 4rem;
   padding-left: 3rem;
+  color: rgba(0, 0, 0, 0.372);
 }
 
 .urgencias-sintomas {
   width: 60%;
   height: auto;
   margin: 4rem;
+}
+
+.urg-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.urgencias-sintomas li {
+  display: flex;
+  font-size: larger;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.372);
+}
+
+.urgencias-sintomas li p {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+li span {
+  color: #00a893;
+}
+
+.financiacion-tiempo {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.372);
+}
+
+.financiacion-tiempo-section {
+  display: flex;
+  margin: 4rem 3rem;
+}
+.financiacion-section {
+  margin-right: 3rem;
+}
+.tiempo-section {
+  margin-top: 4rem;
+  margin-right: 3rem;
+}
+
+.pasillo-img {
+  width: 40%;
+  height: auto;
 }
