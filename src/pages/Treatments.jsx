@@ -4,144 +4,95 @@ function Treatments() {
   return (
     <>
       <header>
-        <img src="src/assets/alineadores.JPG" alt="alineadores" />
+        <img src="src/assets/box-2.JPG" alt="box" />
         <div className="intro-text-section">
-          <span id="odoimplant-title">Servicios Dentales</span>
-          <span>Ortodoncia</span>
+          <span id="odoimplant-title">Treatments</span>
         </div>
       </header>
-      <section className="ortodoncia-section">
-        <div className="ortodoncia-text">
+
+      <p className="ortodoncia-text">
+        A odoimplant tots els tractaments comencen amb un assessorament
+        personalitzat i complet. A la primera visita els doctors avaluen i
+        planifiquen el diagnòstic de cada pacient a mida. Som conscients que el
+        més important a la salut bucal és una bona prevenció i adquisició
+        d’hàbits bucodentals, és per això que tenim un equip amb especialitats
+        per tractar i prevenir totes les àrees. Som una clínica dental amb tota
+        mena d’especialitats i cobrim tots els tractaments al centre.
+      </p>
+      <section className="ortodoncia-section treatments-list">
+        <div className="ortodoncia-text treatments">
           <div className="title">
-            Què és la <span>Ortodòncia? </span>
+            <span>Estètica </span> dental
           </div>
           <p>
-            És una especialitat del camp de l’odontologia que s’encarrega de
-            diagnosticar, prevenir i corregir les irregularitats dentals i
-            facials. Així doncs, el ortodontista és un odontòleg que a més de
-            tenir la carrera d’odontologia disposa d’uns estudis avançats en
-            aquest camp. Aquests coneixements permeten poder corregir la posició
-            de les dents i guiar el desenvolupament dels maxil·lars.
+            La estètica dental és l’especialitat encarregada de tractar els
+            problemes relacionats amb la arminia bucal, tenint com a objectiu
+            aconseguir el somriure ideal.
           </p>
         </div>
-        <div className="ortodoncia-squares">
-          <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-            <span class="inline-block text-teal-500 dark:text-blue-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-8 h-8"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                />
-              </svg>
-            </span>
-
-            <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              1a VISITA ORTODÒNCIA
-            </h1>
-
-            <p class="text-gray-500 dark:text-gray-300">
-              És una visita on el nostre ortodontista, li realitzarà de manera
-              gratuïta un examen clínic, un diagnòstic de la seva maloclusió i
-              el pressupost del seu tractament.
-            </p>
-          </div>
-          <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-            <span class="inline-block text-teal-500 dark:text-blue-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="w-8 h-8"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                />
-              </svg>
-            </span>
-
-            <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
-              ESTUDI D’ORTODÒNCIA
-            </h1>
-
-            <p class="text-gray-500 dark:text-gray-300">
-              Abans de començar amb el tractament d’ortodòncia, realitzarem un
-              estudi fotogràfic i radiogràfic a més d’un escàner intraoral, que
-              ens permetrà realitzar un diagnòstic amb major precisió. Una
-              vegada fet l’estudi i avaluat les teves necessitats,
-              l’especialista li recomanarà quin tipus d’ortodòncia és més
-              efectiva en el seu cas.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="ortodoncia-section">
-        <div className="ortodoncia-text">
+        <div className="ortodoncia-text treatments">
           <div className="title">
-            <span>Tipus </span>d'Ortodòncia
+            <span>Pròtesi </span> dental
+          </div>
+          <p>Especialitat encarregada de reemplaçar les absències dentals.</p>
+        </div>
+        <div className="ortodoncia-text treatments">
+          <div className="title">
+            <span>Odonto</span>pediatria
           </div>
           <p>
-            Les tècniques d’ortodòncia han anat evolucionant al llarg dels anys,
-            però, potser, el canvi recent més significatiu és l’aparició de
-            l’ortodòncia amb alineadors, aquests ens permeten tractaments més
-            curts, més còmodes i estètics.
+            Especialitat encarregada de tractar la cura oral, preventiu i
+            terapèutic dels més petits de la família.
           </p>
         </div>
-        <div className="ortodoncia-text">
+        <div className="ortodoncia-text treatments">
           <div className="title">
-            <span>Alineadors </span>
+            <span>Endodòncia </span>
           </div>
           <p>
-            Les fèrules o alineadors transparents són un sistema alternatiu als
-            brackets, que consisteixen a anar millorant progressivament la
-            posició de les dents a mesura que anem canviant d’alineador. Aquests
-            moviments estan prèviament planificats digitalment per la Dra.
-            Ibern. Aquests alineadors transparents estan fabricats a mesura per
-            a cada pacient, amb un material que fa que siguin molt estètics –
-            gairebé invisibles– i molt còmodes. A més de ser molt còmodes i
-            transparents, es treuen per a menjar i raspallar-se, per la qual
-            cosa no alteren l’estil de vida i ens permeten tenir una correcta
-            higiene dental durant el tractament d’ortodòncia. En odoimplant som
-            pioners en el barri en ortodòncia amb alineadors.
+            L’endodòncia, o tractament de conducte, és el procediment que es
+            realitza per eliminar, parcialment o totalment, la polpa (el nervi)
+            de la dent; i emplenar el conducte de l’arrel amb l’objectiu
+            principal de conservar la dent o el queixal natural. Les causes més
+            freqüents per les quals es requereix una endodòncia són: càries i/o
+            traumatismes, entre d’altres.
           </p>
         </div>
-        <div className="ortodoncia-text">
+        <div className="ortodoncia-text treatments">
           <div className="title">
-            <span>Brackets </span>auto lligables
+            Odontologia <span>general</span>
+          </div>
+          <p>Especialitat encarregada de diagnosticar els problemes bucals.</p>
+        </div>
+        <div className="ortodoncia-text treatments">
+          <div className="title">
+            <span>Radiologia</span>
           </div>
           <p>
-            Aquest tipus de brackets són l’evolució dels brackets metàl·lics
-            convencionals, aquesta nova tecnologia ens permet escurçar el temps
-            de tractament respecte als brackets tradicionals. El principal
-            avantatge és que no porten gomes per a subjectar l’arc, porten una
-            tapa que ens permet que sempre estiguin activats i que puguem
-            minimitzar el nombre de visites.
+            Les radiografies dentals són molt importants en el diagnòstic
+            d’anomalies que afecten les dents i els ossos de suport que no podem
+            detectar en una exploració clínica visual.
           </p>
         </div>
-        <div className="ortodoncia-text">
+        <div className="ortodoncia-text treatments">
           <div className="title">
-            Ortodòncia <span>Infantil</span>
+            Cirurgia<span> i implants</span>
           </div>
           <p>
-            És fonamental l’ortodòncia preventiva en edats primerenques, ja que
-            una vegada ha acabat el creixement no es poden corregir les
-            alteracions dels ossos de la mandíbula i el maxil·lar. La prevenció
-            ens permet realitzar una valoració del creixement coordinat dels
-            ossos maxil·lars, l’avaluació de les funcions orals (deglució,
-            respiració, parla), si el recanvi dentari està sent el correcte,
-            etc. Es recomana fer la primera visita amb el ortodontista als 6
-            anys.
+            La cirurgia d’implants dentals és un procediment que reemplaça les
+            arrels de les dents amb pals metàl·lics similars a caragols i
+            reemplaça les dents danyades o que manca amb dents artificials que
+            es veuen i funcionen de manera molt similar als reals.
+          </p>
+        </div>
+        <div className="ortodoncia-text treatments">
+          <div className="title">
+            <span>Periodòncia</span>
+          </div>
+          <p>
+            La periodòncia és una branca de l’odontologia que s’especialitza en
+            la prevenció, el diagnòstic i el tractament de la malaltia
+            periodontal (malaltia de l’estructura que envolta la dent).
           </p>
         </div>
       </section>

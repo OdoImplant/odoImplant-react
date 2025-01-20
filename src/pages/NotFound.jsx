@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 function NotFound() {
+  const navigate = useNavigate();
   return (
     <section class="bg-gray-100 dark:bg-gray-900 ">
       <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
@@ -27,7 +30,10 @@ function NotFound() {
           </p>
 
           <div class="flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
-            <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-gray-500 rounded-lg shrink-0 sm:w-auto hover:bg-gray-600 dark:hover:bg-gray-500 dark:bg-blue-600">
+            <button
+              onClick={() => navigate("/")}
+              class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-gray-500 rounded-lg shrink-0 sm:w-auto hover:bg-gray-600 dark:hover:bg-gray-500 dark:bg-blue-600"
+            >
               Take me home
             </button>
           </div>

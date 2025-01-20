@@ -4,9 +4,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import NavBar from "./components/NavBar";
 import Contact from "./pages/Contact";
-import Treatments from "./pages/Treatments";
 import Footer from "./components/Footer";
 import Testimonials from "./pages/Testimonials";
+import OrtodonciaDental from "./pages/OrtodonciaDental";
+import Treatments from "./pages/Treatments";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/ortodoncia" element={<OrtodonciaDental />} />
         <Route path="/treatments" element={<Treatments />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/contact" element={<Contact />} />

@@ -1,0 +1,47 @@
+.intro-text-section {
+  background-color: #00a893;
+  width: 30rem;
+  height: 10rem;
+  margin-top: -12rem;
+  margin-bottom: 2rem;
+  z-index: 1;
+  border-radius: 0.1rem;
+  text-align: center;
+  color: #f3f4f6;
+  font-size: large;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#odoimplant-title {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.clinica-section {
+  margin: 4rem 3rem;
+}
+
+.clinica-text {
+  color: rgba(0, 0, 0, 0.372);
+  margin: 4rem 3rem;
+}
+
+.title {
+  font-size: xx-large;
+  margin-bottom: 2rem;
+}
+
+.equipo-section {
+  margin: 4rem 3rem;
+}
+
+.equipo-text {
+  color: rgba(0, 0, 0, 0.372);
+  margin: 4rem 3rem;
+}
+
+.equipo-section img {
+  filter: grayscale(100%);
+}

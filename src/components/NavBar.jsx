@@ -45,6 +45,18 @@ function NavBar() {
           </Link>
 
           <Link
+            to="/ortodoncia"
+            className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
+              selected === "/ortodoncia"
+                ? "text-gray-800 border-b-2 border-teal-500 dark:text-gray-500"
+                : "border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-500 hover:border-teal-500"
+            }`}
+            onClick={() => selectTab("/ortodoncia")}
+          >
+            Ortodoncia
+          </Link>
+
+          <Link
             to="/treatments"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/treatments"
