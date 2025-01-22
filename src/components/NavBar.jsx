@@ -11,7 +11,7 @@ function NavBar() {
 
   return (
     <nav>
-      <nav id="nav-container" className="bg-white shadow dark:bg-white-800">
+      <nav id="nav-container" className="bg-white shadow">
         <div>
           <img
             className="logo-nav"
@@ -19,13 +19,13 @@ function NavBar() {
             alt=""
           />
         </div>
-        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-600">
+        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize">
           <Link
             to="/"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/"
-                ? "text-teal-800 border-b-2 border-teal-500 dark:text-teal-500"
-                : "border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-500 hover:border-teal-500"
+                ? "text-teal-800 border-b-2 border-teal-500 "
+                : "border-b-2 border-transparent hover:text-gray-800"
             }`}
             onClick={() => selectTab("/")}
           >
@@ -36,8 +36,8 @@ function NavBar() {
             to="/about"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/about"
-                ? "text-gray-800 border-b-2 border-teal-500 dark:text-gray-500"
-                : "border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-500 hover:border-teal-500"
+                ? "text-gray-800 border-b-2 border-teal-500 "
+                : "border-b-2 border-transparent hover:text-gray-800 "
             }`}
             onClick={() => selectTab("/about")}
           >
@@ -48,8 +48,8 @@ function NavBar() {
             to="/ortodoncia"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/ortodoncia"
-                ? "text-gray-800 border-b-2 border-teal-500 dark:text-gray-500"
-                : "border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-500 hover:border-teal-500"
+                ? "text-gray-800 border-b-2 border-teal-500"
+                : "border-b-2 border-transparent hover:text-gray-800"
             }`}
             onClick={() => selectTab("/ortodoncia")}
           >
@@ -60,8 +60,8 @@ function NavBar() {
             to="/treatments"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/treatments"
-                ? "text-gray-800 border-b-2 border-teal-500 dark:text-gray-500"
-                : "border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-500 hover:border-teal-500"
+                ? "text-gray-800 border-b-2 border-teal-500"
+                : "border-b-2 border-transparent hover:text-gray-800"
             }`}
             onClick={() => selectTab("/treatments")}
           >
@@ -72,8 +72,8 @@ function NavBar() {
             to="/testimonials"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/testimonials"
-                ? "text-gray-800 border-b-2 border-teal-500 dark:text-gray-500"
-                : "border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-500 hover:border-teal-500"
+                ? "text-gray-800 border-b-2 border-teal-500"
+                : "border-b-2 border-transparent hover:text-gray-800"
             }`}
             onClick={() => selectTab("/testimonials")}
           >
@@ -84,8 +84,8 @@ function NavBar() {
             to="/contact"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/contact"
-                ? "text-gray-800 border-b-2 border-teal-500 dark:text-gray-500"
-                : "border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-500 hover:border-teal-500"
+                ? "text-gray-800 border-b-2 border-teal-500"
+                : "border-b-2 border-transparent hover:text-gray-800"
             }`}
             onClick={() => selectTab("/contact")}
           >

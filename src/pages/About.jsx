@@ -66,10 +66,10 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
+                <h3 class="text-lg font-medium text-teal-500 ">
                   Dra Cristina Ibern
                 </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
+                <span class="mt-1 font-medium text-gray-600 ">
                   Ortodoncista i Directora mèdica
                 </span>
               </div>
@@ -83,10 +83,10 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
+                <h3 class="text-lg font-medium text-teal-500 ">
                   Dr Jordi Garcia Linares
                 </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
+                <span class="mt-1 font-medium text-gray-600 ">
                   Metge Maxil·lofacial
                 </span>
               </div>
@@ -100,10 +100,10 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
+                <h3 class="text-lg font-medium text-teal-500 ">
                   Dra Cristina Valdueza
                 </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
+                <span class="mt-1 font-medium text-gray-600 ">
                   Generalista, especialitzada en endodòncia
                 </span>
               </div>
@@ -117,10 +117,10 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
+                <h3 class="text-lg font-medium text-teal-500">
                   Dra Bea Hernández
                 </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
+                <span class="mt-1 font-medium text-gray-600 ">
                   Generalista especialitzada en estètica i prostodòncia
                 </span>
               </div>
@@ -137,12 +137,8 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
-                  Dídac
-                </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
-                  Higienista
-                </span>
+                <h3 class="text-lg font-medium text-teal-500 ">Dídac</h3>
+                <span class="mt-1 font-medium text-gray-600 ">Higienista</span>
               </div>
             </div>
 
@@ -154,10 +150,8 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
-                  Manuel
-                </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
+                <h3 class="text-lg font-medium text-teal-500 ">Manuel</h3>
+                <span class="mt-1 font-medium text-gray-600">
                   Higienista i protètic dental
                 </span>
               </div>
@@ -171,10 +165,10 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
+                <h3 class="text-lg font-medium text-teal-500 ">
                   Claudia Garcia Fernandez
                 </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
+                <span class="mt-1 font-medium text-gray-600 ">
                   Generalista i periodoncia
                 </span>
               </div>
@@ -188,10 +182,8 @@ function About() {
               />
 
               <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 dark:text-gray-200">
-                  Soledad
-                </h3>
-                <span class="mt-1 font-medium text-gray-600 dark:text-gray-300">
+                <h3 class="text-lg font-medium text-teal-500 ">Soledad</h3>
+                <span class="mt-1 font-medium text-gray-600 ">
                   Recepcionista
                 </span>
               </div>

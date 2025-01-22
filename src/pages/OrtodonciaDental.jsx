@@ -26,7 +26,7 @@ function OrtodonciaDental() {
         </div>
         <div className="ortodoncia-squares">
           <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-            <span class="inline-block text-teal-500 dark:text-blue-400">
+            <span class="inline-block text-teal-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="w-8 h-8"
@@ -43,18 +43,18 @@ function OrtodonciaDental() {
               </svg>
             </span>
 
-            <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+            <h1 class="text-xl font-semibold text-gray-700 capitalize">
               1a VISITA ORTODÒNCIA
             </h1>
 
-            <p class="text-gray-500 dark:text-gray-300">
+            <p class="text-gray-500 ">
               És una visita on el nostre ortodontista, li realitzarà de manera
               gratuïta un examen clínic, un diagnòstic de la seva maloclusió i
               el pressupost del seu tractament.
             </p>
           </div>
           <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-            <span class="inline-block text-teal-500 dark:text-blue-400">
+            <span class="inline-block text-teal-500 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="w-8 h-8"
@@ -71,11 +71,11 @@ function OrtodonciaDental() {
               </svg>
             </span>
 
-            <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+            <h1 class="text-xl font-semibold text-gray-700 capitalize ">
               ESTUDI D’ORTODÒNCIA
             </h1>
 
-            <p class="text-gray-500 dark:text-gray-300">
+            <p class="text-gray-500 ">
               Abans de començar amb el tractament d’ortodòncia, realitzarem un
               estudi fotogràfic i radiogràfic a més d’un escàner intraoral, que
               ens permetrà realitzar un diagnòstic amb major precisió. Una

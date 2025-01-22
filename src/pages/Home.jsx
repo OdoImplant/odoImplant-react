@@ -43,7 +43,7 @@ function Home() {
         <div className="experience-text">
           <div id="boxes-container">
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-              <span class="inline-block text-teal-500 dark:text-blue-400">
+              <span class="inline-block text-teal-500 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-8 h-8"
@@ -60,16 +60,16 @@ function Home() {
                 </svg>
               </span>
 
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 class="text-xl font-semibold text-gray-700 capitalize">
                 Avalados por 30 años de experiencia
               </h1>
 
-              <p class="text-gray-500 dark:text-gray-300">
+              <p class="text-gray-500">
                 Porque nos preocupa tu salud, ¡nos importas tú!
               </p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-              <span class="inline-block text-teal-500 dark:text-blue-400">
+              <span class="inline-block text-teal-500 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-8 h-8"
@@ -86,11 +86,11 @@ function Home() {
                 </svg>
               </span>
 
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 class="text-xl font-semibold text-gray-700 capitalize ">
                 Equipo humano
               </h1>
 
-              <p class="text-gray-500 dark:text-gray-300">
+              <p class="text-gray-500 ">
                 Nuestra clínica dental se distingue por el equipo humano que lo
                 integra. Tenemos el objetivo de que tu visita al dentista sea
                 una experiencia agradable con unas instalaciones modernas y
@@ -98,7 +98,7 @@ function Home() {
               </p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-              <span class="inline-block text-teal-500 dark:text-blue-400">
+              <span class="inline-block text-teal-500 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-8 h-8"
@@ -115,18 +115,18 @@ function Home() {
                 </svg>
               </span>
 
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 class="text-xl font-semibold text-gray-700 capitalize ">
                 Empatía, Respeto y Calidad
               </h1>
 
-              <p class="text-gray-500 dark:text-gray-300">
+              <p class="text-gray-500 ">
                 Nuestros principales valores son la empatía, el respeto y la
                 calidad en la atención, ofreciendo un trato personalizado a los
                 pacientes y con el máximo compromiso.
               </p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
-              <span class="inline-block text-teal-500 dark:text-blue-400">
+              <span class="inline-block text-teal-500 ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="w-8 h-8"
@@ -149,11 +149,11 @@ function Home() {
                 </svg>
               </span>
 
-              <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">
+              <h1 class="text-xl font-semibold text-gray-700 capitalize ">
                 Ser referente
               </h1>
 
-              <p class="text-gray-500 dark:text-gray-300">
+              <p class="text-gray-500 ">
                 En ODO Implant dentistas, auxiliares y todos los demás miembros
                 del equipo compartimos el propósito de ser un referente en
                 Barcelona, ​​garantizando siempre un alto grado de implicación
