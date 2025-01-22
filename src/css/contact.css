@@ -25,3 +25,25 @@
   margin: 4rem;
   background-color: #00a893;
 }
+
+.contact-info-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 6rem;
+}
+
+.contact-items {
+  display: flex;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.372);
+}
+
+.contact-items img {
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.insta {
+  display: flex;
+}

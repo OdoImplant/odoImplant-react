@@ -11,7 +11,7 @@ function NavBar() {
 
   return (
     <nav>
-      <nav id="nav-container" className="bg-white shadow dark:bg-teal-800">
+      <nav id="nav-container" className="bg-white shadow dark:bg-white-800">
         <div>
           <img
             className="logo-nav"
@@ -19,7 +19,7 @@ function NavBar() {
             alt=""
           />
         </div>
-        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-600">
           <Link
             to="/"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${

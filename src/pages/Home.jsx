@@ -6,7 +6,7 @@ function CarouselDefault() {
   return (
     <Carousel className="rounded-l">
       <img
-        src="src/assets/foto-doctora-2.JPG"
+        src="src/assets/lupas.png"
         alt="doctora 1"
         className="h-full w-full object-cover"
       />
