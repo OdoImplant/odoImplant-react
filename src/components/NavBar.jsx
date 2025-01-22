@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../css/navbar.css";
 
 function NavBar() {
@@ -20,7 +20,7 @@ function NavBar() {
           />
         </div>
         <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize">
-          <Link
+          <NavLink
             to="/"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/"
@@ -30,9 +30,9 @@ function NavBar() {
             onClick={() => selectTab("/")}
           >
             Home
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/about"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/about"
@@ -42,9 +42,9 @@ function NavBar() {
             onClick={() => selectTab("/about")}
           >
             About us
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/ortodoncia"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/ortodoncia"
@@ -54,9 +54,9 @@ function NavBar() {
             onClick={() => selectTab("/ortodoncia")}
           >
             Ortodoncia
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/treatments"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/treatments"
@@ -66,9 +66,9 @@ function NavBar() {
             onClick={() => selectTab("/treatments")}
           >
             Treatments
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/testimonials"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/testimonials"
@@ -78,9 +78,9 @@ function NavBar() {
             onClick={() => selectTab("/testimonials")}
           >
             Testimonials
-          </Link>
+          </NavLink>
 
-          <Link
+          <NavLink
             to="/contact"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/contact"
@@ -90,7 +90,13 @@ function NavBar() {
             onClick={() => selectTab("/contact")}
           >
             Contact
-          </Link>
+          </NavLink>
+          <a
+            href="https://cloud-s22.mnprogram.net/24.2.3.0/#/cita-online/BC425646-15DD-4B4A-8D8B-3A3FDA5170F7"
+            target="blank"
+          >
+            <button>Demana cita</button>
+          </a>
         </div>
       </nav>
     </nav>
