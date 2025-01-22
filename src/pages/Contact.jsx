@@ -2,6 +2,8 @@ import ContactForm from "../components/ContactForm";
 import "../css/contact.css";
 
 function Contact() {
+  const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+
   return (
     <>
       <header>
@@ -56,7 +58,7 @@ function Contact() {
             frameborder="0"
             style={{ border: 0 }}
             referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAxHNc-aIHC_XBfmViXFCJVQwbTAEnmSsQ&q=Odoimplant"
+            src={`https://www.google.com/maps/embed/v1/place?key=${API_KEY}&q=Odoimplant`}
             allowfullscreen
           ></iframe>
         </div>
@@ -67,4 +69,5 @@ function Contact() {
     </>
   );
 }
+
 export default Contact;
