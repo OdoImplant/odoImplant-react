@@ -131,7 +131,7 @@ function About() {
           <div class="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-30 mx-auto rounded-lg"
                 src="src/assets/didac.JPG"
                 alt="Didac"
               />
