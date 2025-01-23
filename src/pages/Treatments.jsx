@@ -60,7 +60,7 @@ function Treatments() {
         </div>
         <div className="ortodoncia-text treatments">
           <div className="title">
-            Odontologia <span>general</span>
+            <span>Odontologia </span>general
           </div>
           <p>Especialitat encarregada de diagnosticar els problemes bucals.</p>
         </div>
@@ -76,7 +76,7 @@ function Treatments() {
         </div>
         <div className="ortodoncia-text treatments">
           <div className="title">
-            Cirurgia<span> i implants</span>
+            <span>Cirurgia</span> i implants
           </div>
           <p>
             La cirurgia d’implants dentals és un procediment que reemplaça les

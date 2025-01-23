@@ -63,9 +63,9 @@ function Contact() {
           ></iframe>
         </div>
       </section>
-      <section className="contact-form">
+      {/* <section className="contact-form">
         <ContactForm />
-      </section>
+      </section>*/}
     </>
   );
 }

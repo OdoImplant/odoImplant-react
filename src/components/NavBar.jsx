@@ -29,7 +29,7 @@ function NavBar() {
             }`}
             onClick={() => selectTab("/")}
           >
-            Home
+            Inici
           </NavLink>
 
           <NavLink
@@ -41,7 +41,7 @@ function NavBar() {
             }`}
             onClick={() => selectTab("/about")}
           >
-            About us
+            Sobre OdoImplant
           </NavLink>
 
           <NavLink
@@ -53,7 +53,7 @@ function NavBar() {
             }`}
             onClick={() => selectTab("/ortodoncia")}
           >
-            Ortodoncia
+            Ortodòncia
           </NavLink>
 
           <NavLink
@@ -65,7 +65,7 @@ function NavBar() {
             }`}
             onClick={() => selectTab("/treatments")}
           >
-            Treatments
+            Tractaments
           </NavLink>
 
           <NavLink
@@ -77,7 +77,7 @@ function NavBar() {
             }`}
             onClick={() => selectTab("/testimonials")}
           >
-            Testimonials
+            Testimonis
           </NavLink>
 
           <NavLink
@@ -101,7 +101,7 @@ function NavBar() {
             }`}
             onClick={() => selectTab("/contact")}
           >
-            Contact
+            Contacte
           </NavLink>
           <a
             href="https://cloud-s22.mnprogram.net/24.2.3.0/#/cita-online/BC425646-15DD-4B4A-8D8B-3A3FDA5170F7"

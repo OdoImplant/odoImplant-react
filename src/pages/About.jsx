@@ -169,7 +169,7 @@ function About() {
                   Claudia Garcia Fernandez
                 </h3>
                 <span class="mt-1 font-medium text-gray-600 ">
-                  Generalista i periodoncia
+                  Generalista i periodòncia
                 </span>
               </div>
             </div>
