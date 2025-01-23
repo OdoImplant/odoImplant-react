@@ -1,64 +1,48 @@
+import "../css/footer.css";
 function Footer() {
   return (
     <footer className="bg-white">
-      <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
-        <a href="#">
+      <div className="container flex flex-col items-center p-6 mx-auto sm:space-y-0 sm:flex-row justify-between">
+        <a href="/">
           <img
             className="w-auto h-7"
             src="src/assets/odoimplant-02-1.png"
-            alt=""
+            alt="odoimplant-logo"
           />
         </a>
-
-        <p className="text-sm text-gray-600 ">
-          © Copyright 2021. All Rights Reserved.
-        </p>
-
-        <div className="flex -mx-2">
-          <a
-            href="#"
-            className="mx-2 text-gray-600 transition-colors duration-300 "
-            aria-label="Reddit"
-          >
-            <svg
-              className="w-5 h-5 fill-current"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="..." />
-            </svg>
+        <div className="right-section">
+          <a id="insta" href="https://www.instagram.com/odoimplant/">
+            <img
+              className="icon-insta"
+              src="src/assets/vecteezy-instagram.png"
+              alt="vecteezy-instagram"
+            />
+            <p>https://www.instagram.com/odoimplant/</p>
           </a>
-
-          <a
-            href="#"
-            className="mx-2 text-gray-600 transition-colors duration-300"
-            aria-label="Facebook"
-          >
-            <svg
-              className="w-5 h-5 fill-current"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="..." />
-            </svg>
-          </a>
-
-          <a
-            href="#"
-            className="mx-2 text-gray-600 transition-colors duration-300 "
-            aria-label="Github"
-          >
-            <svg
-              className="w-5 h-5 fill-current"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="..." />
-            </svg>
-          </a>
+          <div id="call">
+            <img
+              className="icon-gray"
+              src="src/assets/call-gray.png"
+              alt="call-gray"
+            />
+            <p>93 498 78 90</p>
+          </div>
+          <div id="mail">
+            <img
+              className="icon-gray"
+              src="src/assets/mail-gray.png"
+              alt="mail-gray"
+            />
+            <p>odo@odoimplant.com</p>
+          </div>
+          <div id="location">
+            <img
+              className="icon-gray"
+              src="src/assets/location-gray.png"
+              alt="location-gray"
+            />
+            <p>C/ Huelva 138 (local posterior) 08020 Barcelona</p>
+          </div>
         </div>
       </div>
     </footer>

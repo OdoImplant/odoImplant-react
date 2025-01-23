@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.right-section {
+  display: flex;
+  color: #4b5563;
+  width: 80%;
+  font-size: small;
+  justify-content: space-between;
+}
+
+.icon-gray {
+  height: 1.5rem;
+  width: auto;
+}
+
+.icon-insta {
+  width: 2rem;
+  height: auto;
+}
+
+#insta,
+#call,
+#mail,
+#location {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+p {
+  width: fit-content;
+  margin-left: 0.5rem;
+}
