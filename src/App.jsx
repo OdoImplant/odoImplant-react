@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Testimonials from "./pages/Testimonials";
 import OrtodonciaDental from "./pages/OrtodonciaDental";
 import Treatments from "./pages/Treatments";
+import Galeria from "./pages/Galeria";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/ortodoncia" element={<OrtodonciaDental />} />
         <Route path="/treatments" element={<Treatments />} />
         <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/galery" element={<Galeria />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

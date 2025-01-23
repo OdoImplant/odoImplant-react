@@ -81,6 +81,18 @@ function NavBar() {
           </NavLink>
 
           <NavLink
+            to="/galery"
+            className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
+              selected === "/galery"
+                ? "text-gray-800 border-b-2 border-teal-500"
+                : "border-b-2 border-transparent hover:text-gray-800"
+            }`}
+            onClick={() => selectTab("/galery")}
+          >
+            Galeria
+          </NavLink>
+
+          <NavLink
             to="/contact"
             className={`mx-1.5 sm:mx-6 transition-colors duration-300 transform ${
               selected === "/contact"
