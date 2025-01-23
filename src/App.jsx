@@ -9,11 +9,13 @@ import Testimonials from "./pages/Testimonials";
 import OrtodonciaDental from "./pages/OrtodonciaDental";
 import Treatments from "./pages/Treatments";
 import Galeria from "./pages/Galeria";
+import WhatsAppButton from "./components/WhatssButton";
 
 function App() {
   return (
     <>
       <NavBar />
+      <WhatsAppButton />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
