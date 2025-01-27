@@ -1,13 +1,13 @@
 import "../css/about.css";
-import equipo from "../assets/equipo.JPG";
-import ibern from "../assets/draIbern.JPG";
-import drGarcia from "../assets/dr-garcia.JPG";
-import valdueza from "../assets/valdueza.JPG";
-import hernandez from "../assets/bea.JPG";
-import didac from "../assets/didac.jpg";
-import manuel from "../assets/manuel.JPG";
-import draGarcia from "../assets/dragarcia.JPG";
-import soledad from "../assets/soledad.JPG";
+import equipo from "../assets/equipo.png";
+import ibern from "../assets/draIbern.png";
+import drGarcia from "../assets/dr-garcia.png";
+import valdueza from "../assets/valdueza.png";
+import hernandez from "../assets/bea.png";
+import didac from "../assets/didac.png";
+import manuel from "../assets/manuel.png";
+import draGarcia from "../assets/dragarcia.png";
+import soledad from "../assets/soledad.png";
 
 function About() {
   return (

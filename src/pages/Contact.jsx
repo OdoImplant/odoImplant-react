@@ -1,5 +1,10 @@
 import ContactForm from "../components/ContactForm";
 import "../css/contact.css";
+import entrada from "../assets/entrada.png";
+import callLogo from "../assets/call-logo.png";
+import instaLogo from "../assets/vecteezy-instagram.png";
+import mailLogo from "../assets/mail-logo.png";
+import location from "../assets/location-logo.png";
 
 function Contact() {
   const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
@@ -7,7 +12,7 @@ function Contact() {
   return (
     <>
       <header>
-        <img src="src/assets/entrada.JPG" alt="entrada" />
+        <img src={entrada} alt="entrada" />
         <div className="intro-text-section">
           <span id="odoimplant-title">Contacte</span>
           <span>Demana cita</span>
@@ -30,24 +35,21 @@ function Contact() {
       <section className="contact-info-section">
         <div className="contact-details">
           <div className="contact-items">
-            <img src="src/assets/call-logo.png" alt="call-icon" />
+            <img src={callLogo} alt="call-icon" />
             <p>93 498 78 90</p>
           </div>
           <div className="contact-items">
             <a className="insta" href="https://www.instagram.com/odoimplant">
-              <img
-                src="src/assets/vecteezy-instagram.png"
-                alt="vecteezy-instagram"
-              />
+              <img src={instaLogo} alt="vecteezy-instagram" />
               <p>https://www.instagram.com/odoimplant/</p>
             </a>
           </div>
           <div className="contact-items">
-            <img src="src/assets/mail-logo.png" alt="mail-icon" />
+            <img src={mailLogo} alt="mail-icon" />
             <p>odo@odoimplant.com</p>
           </div>
           <div className="contact-items">
-            <img src="src/assets/location-logo.png" alt="location-icon" />
+            <img src={location} alt="location-icon" />
             <p>C/ Huelva 138 (local posterior) 08020 Barcelona</p>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../css/navbar.css";
+import logo from "../assets/odoimplant-02-1.png";
 
 function NavBar() {
   const [selected, setSelected] = useState("/");
@@ -14,11 +15,7 @@ function NavBar() {
       <nav id="nav-container" className="bg-white shadow">
         <div>
           <a href="www.odoimplant.com">
-            <img
-              className="logo-nav"
-              src="src/assets/odoimplant-02-1.png"
-              alt=""
-            />
+            <img className="logo-nav" src={logo} alt="" />
           </a>
         </div>
         <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize">
