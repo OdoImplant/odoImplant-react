@@ -6,7 +6,7 @@ function Treatments() {
       <header>
         <img src="src/assets/box-2.JPG" alt="box" />
         <div className="intro-text-section">
-          <span id="odoimplant-title">Treatments</span>
+          <span id="odoimplant-title">Tractaments</span>
         </div>
       </header>
 

@@ -13,11 +13,13 @@ function NavBar() {
     <nav>
       <nav id="nav-container" className="bg-white shadow">
         <div>
-          <img
-            className="logo-nav"
-            src="src/assets/odoimplant-02-1.png"
-            alt=""
-          />
+          <a href="www.odoimplant.com">
+            <img
+              className="logo-nav"
+              src="src/assets/odoimplant-02-1.png"
+              alt=""
+            />
+          </a>
         </div>
         <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize">
           <NavLink
@@ -107,7 +109,7 @@ function NavBar() {
             href="https://cloud-s22.mnprogram.net/24.2.3.0/#/cita-online/BC425646-15DD-4B4A-8D8B-3A3FDA5170F7"
             target="blank"
           >
-            <button>Demana cita</button>
+            <button className="contact-button">Demana cita</button>
           </a>
         </div>
       </nav>

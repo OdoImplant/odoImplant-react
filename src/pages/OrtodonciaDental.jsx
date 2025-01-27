@@ -6,8 +6,8 @@ function OrtodonciaDental() {
       <header>
         <img src="src/assets/alineadores.JPG" alt="alineadores" />
         <div className="intro-text-section">
-          <span id="odoimplant-title">Servicios Dentales</span>
-          <span>Ortodoncia</span>
+          <span id="odoimplant-title">Serveis Dentals</span>
+          <span>Ortodòncia</span>
         </div>
       </header>
       <section className="ortodoncia-section">
