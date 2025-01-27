@@ -1,10 +1,19 @@
 import "../css/about.css";
+import equipo from "../assets/equipo.JPG";
+import ibern from "../assets/draIbern.JPG";
+import drGarcia from "../assets/dr-garcia.JPG";
+import valdueza from "../assets/valdueza.JPG";
+import hernandez from "../assets/bea.JPG";
+import didac from "../assets/didac.JPG";
+import manuel from "../assets/manuel.JPG";
+import draGarcia from "../assets/dragarcia.JPG";
+import soledad from "../assets/soledad.JPG";
 
 function About() {
   return (
     <>
       <header>
-        <img src="src/assets/equipo.JPG" alt="equipo" />
+        <img src={equipo} alt="equipo" />
         <div className="intro-text-section">
           <span id="odoimplant-title">OdoImplant</span>
           <span>Qui sóm?</span>
@@ -61,7 +70,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src="src/assets/draIbern.JPG"
+                src={ibern}
                 alt="Dra-Ibern"
               />
 
@@ -78,7 +87,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src="src/assets/dr-garcia.JPG"
+                src={drGarcia}
                 alt="Dr-Garcia-Linares"
               />
 
@@ -95,7 +104,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src="src/assets/valdueza.JPG"
+                src={valdueza}
                 alt="Dra-Valdueza"
               />
 
@@ -112,7 +121,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src="src/assets/bea.JPG"
+                src={hernandez}
                 alt="Dra-hernandez"
               />
 
@@ -132,7 +141,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-30 mx-auto rounded-lg"
-                src="src/assets/didac.JPG"
+                src={didac}
                 alt="Didac"
               />
 
@@ -145,7 +154,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src="src/assets/manuel.JPG"
+                src={manuel}
                 alt="Manuel"
               />
 
@@ -160,7 +169,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src="src/assets/dragarcia.JPG"
+                src={draGarcia}
                 alt="Dra-Garcia"
               />
 
@@ -177,7 +186,7 @@ function About() {
             <div class="w-full max-w-xs text-center">
               <img
                 class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src="src/assets/soledad.JPG"
+                src={soledad}
                 alt="Soledad"
               />
 
