@@ -4,7 +4,7 @@ import ibern from "../assets/draIbern.JPG";
 import drGarcia from "../assets/dr-garcia.JPG";
 import valdueza from "../assets/valdueza.JPG";
 import hernandez from "../assets/bea.JPG";
-import didac from "../assets/didac.JPG";
+import didac from "../assets/didac.jpg";
 import manuel from "../assets/manuel.JPG";
 import draGarcia from "../assets/dragarcia.JPG";
 import soledad from "../assets/soledad.JPG";
