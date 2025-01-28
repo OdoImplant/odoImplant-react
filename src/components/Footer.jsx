@@ -4,6 +4,7 @@ import insta from "../assets/vecteezy-instagram.png";
 import callLogo from "../assets/call-gray.png";
 import mailLogo from "../assets/mail-gray.png";
 import location from "../assets/location-gray.png";
+
 function Footer() {
   return (
     <footer className="bg-white">

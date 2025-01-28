@@ -1,10 +1,11 @@
 import "../css/Treatments.css";
+import box from "../assets/box-2.png";
 
 function Treatments() {
   return (
     <>
       <header>
-        <img src="src/assets/box-2.JPG" alt="box" />
+        <img src={box} alt="box" />
         <div className="intro-text-section">
           <span id="odoimplant-title">Tractaments</span>
         </div>

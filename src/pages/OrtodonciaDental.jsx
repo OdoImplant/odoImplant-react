@@ -1,10 +1,10 @@
 import "../css/Treatments.css";
-
+import alineadores from "../assets/alineadores.png";
 function OrtodonciaDental() {
   return (
     <>
       <header>
-        <img src="src/assets/alineadores.JPG" alt="alineadores" />
+        <img src={alineadores} alt="alineadores" />
         <div className="intro-text-section">
           <span id="odoimplant-title">Serveis Dentals</span>
           <span>Ortodòncia</span>
