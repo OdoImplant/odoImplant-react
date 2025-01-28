@@ -1,22 +1,27 @@
 import React from "react";
 import { Carousel } from "@material-tailwind/react";
 import "../css/home.css";
+import lupas from "../assets/lupas.png";
+import alineadores from "../assets/alineadores.png";
+import doctora from "../assets/foto-doctora.png";
+import doctora3 from "../assets/foto-doctora-3.png";
+import aparatologia from "../assets/aparatologia.png";
+import diente from "../assets/diente.png";
+import urgencias from "../assets/urgencias.png";
+import herramientas from "../assets/herramientas.png";
+import pasillo from "../assets/pasillo.png";
 
 function CarouselDefault() {
   return (
     <Carousel className="rounded-l">
+      <img src={lupas} alt="doctora 1" className="h-full w-full object-cover" />
       <img
-        src="src/assets/lupas.png"
-        alt="doctora 1"
-        className="h-full w-full object-cover"
-      />
-      <img
-        src="src/assets/alineadores.JPG"
+        src={alineadores}
         alt="alineadores"
         className="h-full w-full object-cover"
       />
       <img
-        src="src/assets/foto-doctora.JPG"
+        src={doctora}
         alt="doctora 2"
         className="h-full w-full object-cover"
       />
@@ -61,11 +66,11 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize">
-                Avalados por 30 años de experiencia
+                Avalats per 30 anys d'experiència
               </h1>
 
               <p class="text-gray-500">
-                Porque nos preocupa tu salud, ¡nos importas tú!
+                Perquè ens preocupa la teva salut, ens importes tú!
               </p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
@@ -87,14 +92,14 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize ">
-                Equipo humano
+                Equip humà
               </h1>
 
               <p class="text-gray-500 ">
-                Nuestra clínica dental se distingue por el equipo humano que lo
-                integra. Tenemos el objetivo de que tu visita al dentista sea
-                una experiencia agradable con unas instalaciones modernas y
-                cálidas.
+                La nostra clínica dental es distingeix per l'equip humà que
+                l'integra. Tenim l'bjectiu que la teva visita al dentista sigui
+                una experiència agradable amb unes instal.lacions modernes i
+                càlides.
               </p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
@@ -116,13 +121,13 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize ">
-                Empatía, Respeto y Calidad
+                Empatia, Respecte i Qualitat
               </h1>
 
               <p class="text-gray-500 ">
-                Nuestros principales valores son la empatía, el respeto y la
-                calidad en la atención, ofreciendo un trato personalizado a los
-                pacientes y con el máximo compromiso.
+                Els nostres principals valors són l'empatia, el respecte i la
+                qualitat en l'atenció, oferint un tracte personalitzat als
+                pacients i amb el màxim compromís.
               </p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
@@ -150,80 +155,68 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize ">
-                Ser referente
+                Ser referent
               </h1>
 
               <p class="text-gray-500 ">
-                En ODO Implant dentistas, auxiliares y todos los demás miembros
-                del equipo compartimos el propósito de ser un referente en
-                Barcelona, ​​garantizando siempre un alto grado de implicación
-                profesional y emocional con los pacientes.
+                A Odoimplant dentistes, auxiliars i tots els altres membres de
+                l'equip compartim el propòsit de ser un referent a Barcelona,
+                ​​garantitzant sempre un alt grau d'implicació professional i
+                emocional amb els pacients.
               </p>
             </div>
           </div>
         </div>
-        <img src="src/assets/foto-doctora-3.JPG" alt="doctora3" />
+        <img src={doctora3} alt="doctora3" />
       </section>
       <section className="aparatologia-section">
-        <img src="src/assets/aparatologia.JPG" alt="escáner 3d" />
+        <img src={aparatologia} alt="escáner 3d" />
         <div id="aparatología-text">
           <div className="title">
-            <span>Aparatología </span>de última generación
+            <span>Aparatologia </span>d'última generació
           </div>
           <p>
-            Disponemos de un escáner 3D intraoral que escanea la cavidad oral y
-            transfiere los datos digitalizados al ordenador. De esta forma
-            evitamos los moldes de impresión desagradables. Nos permite también
-            planificar en 3D el tratamiento más adecuado para cada paciente de
-            forma multidisciplinar Además de disponer Ortopantomografía,
-            telerradiografía y radiografías intraorales digitales que además de
-            obtener unas imágenes mucho más precisas, reduce la cantidad de
-            radiación que debe recibir el paciente.
+            Disposem d'un escaner 3D intraoral que escaneja la cavitat oral i
+            transfereix les dades digitalitzades a l'ordinador. D'aquesta manera
+            evitem els motlles d'impressió desagradables. Ens permet també
+            planificar en 3D el tractament més edient per a cada pacient de
+            forma multidisciplinar. A més de disposar d'Ortopantomografia,
+            telerradiografia y radiografies intraorals digitals que a més
+            d'obtenir unes imatges molt més precises, redueix la quantitat de
+            radiació que ha de rebre el pacient.
           </p>
         </div>
       </section>
       <section className="urgencias-section">
         <div id="urgencias-text">
           <div className="title">
-            <span>Urgencias </span>dentales
+            <span>Urgències </span>dentals
           </div>
           <p>
-            Atendemos a todo tipo de urgencias. En caso de que necesite un
-            dentista de urgencias en Sant Martí, puede llamarnos de 8-21 y le
-            buscaremos una cita con el dentista que tengamos en la clínica de
-            urgencias, él será quien evalúe la situación y decida qué hacer.
+            Atenem tot tipus d'urgències. En cas que necesiti un dentista
+            d'urgència a Sant Martí, pot trucar de 8-21 i li buscarem una cita
+            amb el dentista que tinguem a la clínica d'urgència, ell o ella serà
+            qui avaluï la situació i decideixi què fer.
           </p>
         </div>
         <div className="urgencias-sintomas">
           <ul>
             <li>
-              <img
-                className="urg-icon"
-                src="src/assets/diente.png"
-                alt="diente"
-              />
+              <img className="urg-icon" src={diente} alt="diente" />
               <p>
-                <span>Sangrado</span> continuo de la boca
+                <span>Sangrat</span> continu de la boca
               </p>
             </li>
             <li>
-              <img
-                className="urg-icon"
-                src="src/assets/urgencias.png"
-                alt="urgencias"
-              />
+              <img className="urg-icon" src={urgencias} alt="urgencias" />
               <p>
-                <span>Dolor</span> severo dental
+                <span>Dolor</span> sever dental
               </p>
             </li>
             <li>
-              <img
-                className="urg-icon"
-                src="src/assets/herramientas.png"
-                alt="tools"
-              />
+              <img className="urg-icon" src={herramientas} alt="tools" />
               <p>
-                <span>Daño o pérdida </span> de un diente por traumatismo
+                <span>Dolor o pèrdua </span> d'una dent per traumatisme
               </p>
             </li>
           </ul>
@@ -234,35 +227,31 @@ function Home() {
           <section className="financiacion-section">
             <div id="financiacion-text">
               <div className="title">
-                <span>Financiación </span>
+                <span>Financiació </span>
               </div>
               <p>
-                Somos conscientes de que los tratamientos dentales pueden tener
-                un coste elevado, es por eso que nos adaptamos al paciente al
-                máximo. Contamos con distintos planes de pagos y ofrecemos
-                financiación hasta veinticuatro meses sin intereses.
+                Sóm conscients que els tractaments dentals poden tenir un cost
+                elevat, és per això que ens adaptem al pacient al màxim. Comptem
+                amb diferents plans de pagaments i oferim financiació fins a
+                vint-i-quatre mesos sense interessos.
               </p>
             </div>
           </section>
           <section className="tiempo-section">
             <div id="tiempo-text">
               <div className="title">
-                <span>Falta</span> de tiempo
+                <span>Falta</span> de temps
               </div>
               <p>
-                ¿Tienes problemas con los horarios o no tienes tiempo para
-                visitarte? No te preocupes, en Odo Implant ofrecemos la
-                posibilidad de agrupar varios tratamientos en una sola sesión o
-                en el mínimo posible para que no tengas que venir tantas veces.
+                Tens problemes amb els horaris o no tens temps per a visitar-te?
+                No et preocupis, a Odoimplant oferim la possibilitad d'agrupar
+                diferents tractaments en una sola sessió o en el mínim possible
+                per a que no hagis de venir tants cops.
               </p>
             </div>
           </section>
         </div>
-        <img
-          className="pasillo-img"
-          src="src/assets/pasillo.JPG"
-          alt="pasillo"
-        />
+        <img className="pasillo-img" src={pasillo} alt="pasillo" />
       </section>
     </>
   );
