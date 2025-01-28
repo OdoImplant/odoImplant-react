@@ -38,9 +38,9 @@ function Home() {
         </div>
         <div className="intro-text-section">
           <span id="odoimplant-title">Odoimplant</span>
-          <span>Creando nuevas sonrisas perfectas todos los días</span>
+          <span>Creant nous somriures perfectes tots els dies</span>
           <span id="subtitle">
-            Promociona, restaura y mantiene tu salud bucodental
+            Promociona, restaura i manté la teva salut bucodental
           </span>
         </div>
       </section>
