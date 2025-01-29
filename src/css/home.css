@@ -169,3 +169,57 @@ li span {
   width: 40%;
   height: auto;
 }
+@media (max-width: 1400px) {
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .experience-section img {
+    display: none;
+  }
+  #urgencias-text {
+    padding-right: 1rem;
+    padding-left: 3rem;
+    color: rgba(0, 0, 0, 0.372);
+  }
+  #urgencias-sintomas {
+    margin: 2rem;
+  }
+  .financiacion-tiempo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .financiacion-tiempo {
+    margin-right: 2rem;
+  }
+  .financiacion-tiempo-section img {
+    margin-top: 4rem;
+    width: 70%;
+  }
+}
+@media (max-width: 830px) {
+  #boxes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .urgencias-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .aparatologia-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aparatologia-section img {
+    margin-bottom: 4rem;
+    width: 70%;
+  }
+  #aparatología-text {
+    margin-left: 0.5rem;
+  }
+}
