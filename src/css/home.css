@@ -23,7 +23,7 @@
 
 .intro-text-section {
   background-color: #00a893;
-  width: 30rem;
+  width: 50%;
   height: 10rem;
   margin-top: -12rem;
   margin-bottom: 2rem;
@@ -196,10 +196,15 @@ li span {
   }
   .financiacion-tiempo-section img {
     margin-top: 4rem;
-    width: 70%;
+    width: 90%;
   }
 }
 @media (max-width: 830px) {
+  .intro-text-section {
+    margin-top: 2rem;
+    width: 70%;
+    height: auto;
+  }
   #boxes-container {
     display: flex;
     justify-content: center;
@@ -217,9 +222,17 @@ li span {
   }
   .aparatologia-section img {
     margin-bottom: 4rem;
-    width: 70%;
+    width: 90%;
   }
   #aparatología-text {
     margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #boxes-container div {
+    margin: 1rem;
+    width: 90%;
+    height: auto;
   }
 }
