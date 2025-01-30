@@ -174,6 +174,7 @@ li span {
     display: flex;
     flex-direction: column;
     justify-items: center;
+    margin-top: 1rem;
   }
   .experience-section img {
     display: none;
@@ -201,31 +202,80 @@ li span {
 }
 @media (max-width: 830px) {
   .intro-text-section {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 70%;
     height: auto;
+  }
+  .experience-section {
+    margin-left: 0;
+    margin-right: 0;
   }
   #boxes-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 90%;
+  }
+  #boxes-container div {
+    padding: 0.8rem;
   }
   .urgencias-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
   }
   .aparatologia-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
   }
   .aparatologia-section img {
     margin-bottom: 4rem;
     width: 90%;
   }
   #aparatología-text {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  #urgencias-text {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    padding-left: 0;
+  }
+  .urgencias-sintomas {
+    margin-bottom: 1rem;
+  }
+  .urgencias-sintomas li p {
     margin-left: 0.5rem;
+  }
+  .financiacion-tiempo-section {
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .financiacion-section {
+    margin-right: 0;
+  }
+  .tiempo-section {
+    margin-right: 0;
+  }
+  .financiacion-text {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  .tiempo-text {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
   }
 }
 
