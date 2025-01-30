@@ -49,3 +49,22 @@ header img {
   width: 40%;
   height: auto;
 }
+
+@media (max-width: 830px) {
+  .ortodoncia-section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .title {
+    text-align: center;
+  }
+  .ortodoncia-squares {
+    display: flex;
+    flex-direction: column;
+  }
+  .ortodoncia-squares div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}
