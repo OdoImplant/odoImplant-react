@@ -13,14 +13,14 @@
 }
 
 .logo-nav {
-  height: 3rem;
+  height: 2rem;
   width: auto;
 }
 
 #right-nav {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .contact-button {
@@ -60,7 +60,7 @@
 
 .hamburger-menu {
   display: none;
-  height: 3rem;
+  height: 2rem;
   cursor: pointer;
 }
 
