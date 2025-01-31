@@ -50,4 +50,14 @@
   .intro-text-section {
     margin-top: 1rem;
   }
+  .contact-info-section {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .map-area {
+    width: 80%;
+    margin-top: 1rem;
+  }
 }

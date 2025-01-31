@@ -67,4 +67,16 @@ header img {
     height: auto;
     margin-bottom: 1rem;
   }
+  .ortodoncia-text {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align: center;
+  }
+  .treatments {
+    width: 90%;
+  }
+  .treatments-list {
+    display: flex;
+    flex-direction: column;
+  }
 }
