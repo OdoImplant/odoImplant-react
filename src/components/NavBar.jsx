@@ -4,6 +4,7 @@ import "../css/navbar.css";
 import logo from "../assets/odoimplant-02-1.png";
 import hamburger from "../assets/hamburger.png";
 import closeIcon from "../assets/close.png";
+import { t } from "../utils/transllationFunction.js";
 
 function NavBar() {
   const [selected, setSelected] = useState("/");
@@ -30,7 +31,7 @@ function NavBar() {
             className={selected === "/" ? "active" : ""}
             onClick={() => selectTab("/")}
           >
-            Inici
+            {t("inici")}
           </NavLink>
           <NavLink
             to="/about"
@@ -38,7 +39,7 @@ function NavBar() {
             className={selected === "/about" ? "active" : ""}
             onClick={() => selectTab("/about")}
           >
-            Sobre OdoImplant
+            {t("sobre-OdoImplant")}
           </NavLink>
           <NavLink
             to="/ortodoncia"
@@ -46,7 +47,7 @@ function NavBar() {
             className={selected === "/ortodoncia" ? "active" : ""}
             onClick={() => selectTab("/ortodoncia")}
           >
-            Ortodòncia
+            {t("ortodòncia")}
           </NavLink>
           <NavLink
             to="/treatments"
@@ -54,7 +55,7 @@ function NavBar() {
             className={selected === "/treatments" ? "active" : ""}
             onClick={() => selectTab("/treatments")}
           >
-            Tractaments
+            {t("tractaments")}
           </NavLink>
           <NavLink
             to="/testimonials"
@@ -62,7 +63,7 @@ function NavBar() {
             className={selected === "/testimonials" ? "active" : ""}
             onClick={() => selectTab("/testimonials")}
           >
-            Testimonis
+            {t("testimonis")}
           </NavLink>
           <NavLink
             to="/galery"
@@ -70,7 +71,7 @@ function NavBar() {
             className={selected === "/galery" ? "active" : ""}
             onClick={() => selectTab("/galery")}
           >
-            Galeria
+            {t("galeria")}
           </NavLink>
           <NavLink
             to="/contact"
@@ -78,7 +79,7 @@ function NavBar() {
             className={selected === "/contact" ? "active" : ""}
             onClick={() => selectTab("/contact")}
           >
-            Contacte
+            {t("contacte")}
           </NavLink>
         </div>
 
@@ -88,7 +89,7 @@ function NavBar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="contact-button">Demana cita</button>
+            <button className="contact-button">{t("demana-cita")}</button>
           </a>
           <img
             className="hamburger-menu"
@@ -101,25 +102,25 @@ function NavBar() {
 
       <div className={`mobile-menu ${menuOpen ? "open" : ""}`}>
         <NavLink to="/" onClick={() => selectTab("/")}>
-          Inici
+          {t("inici")}
         </NavLink>
         <NavLink to="/about" onClick={() => selectTab("/about")}>
-          Sobre OdoImplant
+          {t("sobre-OdoImplant")}
         </NavLink>
         <NavLink to="/ortodoncia" onClick={() => selectTab("/ortodoncia")}>
-          Ortodòncia
+          {t("ortodòncia")}
         </NavLink>
         <NavLink to="/treatments" onClick={() => selectTab("/treatments")}>
-          Tractaments
+          {t("tractaments")}
         </NavLink>
         <NavLink to="/testimonials" onClick={() => selectTab("/testimonials")}>
-          Testimonis
+          {t("testimonis")}
         </NavLink>
         <NavLink to="/galery" onClick={() => selectTab("/galery")}>
-          Galeria
+          {t("galeria")}
         </NavLink>
         <NavLink to="/contact" onClick={() => selectTab("/contact")}>
-          Contacte
+          {t("contacte")}
         </NavLink>
       </div>
     </nav>

@@ -10,6 +10,7 @@ import diente from "../assets/diente.png";
 import urgencias from "../assets/urgencias.png";
 import herramientas from "../assets/herramientas.png";
 import pasillo from "../assets/pasillo.png";
+import { t } from "../utils/transllationFunction.js";
 
 function CarouselDefault() {
   return (
@@ -38,10 +39,8 @@ function Home() {
         </div>
         <div className="intro-text-section">
           <span id="odoimplant-title">Odoimplant</span>
-          <span>Creant nous somriures perfectes tots els dies</span>
-          <span id="subtitle">
-            Promociona, restaura i manté la teva salut bucodental
-          </span>
+          <span>{t("odo-sub")}</span>
+          <span id="subtitle">{t("odo-text")}</span>
         </div>
       </section>
       <section className="experience-section">
@@ -66,12 +65,10 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize">
-                Avalats per 30 anys d'experiència
+                {t("avalats")}
               </h1>
 
-              <p class="text-gray-500">
-                Perquè ens preocupa la teva salut, ens importes tú!
-              </p>
+              <p class="text-gray-500">{t("avalats-text")}</p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
               <span class="inline-block text-teal-500 ">
@@ -92,15 +89,10 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize ">
-                Equip humà
+                {t("Equip humà")}
               </h1>
 
-              <p class="text-gray-500 ">
-                La nostra clínica dental es distingeix per l'equip humà que
-                l'integra. Tenim l'bjectiu que la teva visita al dentista sigui
-                una experiència agradable amb unes instal.lacions modernes i
-                càlides.
-              </p>
+              <p class="text-gray-500 ">{t("huma-text")}</p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
               <span class="inline-block text-teal-500 ">
@@ -121,14 +113,10 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize ">
-                Empatia, Respecte i Qualitat
+                {t("empatia")}
               </h1>
 
-              <p class="text-gray-500 ">
-                Els nostres principals valors són l'empatia, el respecte i la
-                qualitat en l'atenció, oferint un tracte personalitzat als
-                pacients i amb el màxim compromís.
-              </p>
+              <p class="text-gray-500 ">{t("empatia-text")}</p>
             </div>
             <div class="p-8 space-y-3 border-2 border-teal-500 rounded-xl">
               <span class="inline-block text-teal-500 ">
@@ -155,15 +143,10 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize ">
-                Ser referent
+                {t("referent")}
               </h1>
 
-              <p class="text-gray-500 ">
-                A Odoimplant dentistes, auxiliars i tots els altres membres de
-                l'equip compartim el propòsit de ser un referent a Barcelona,
-                ​​garantitzant sempre un alt grau d'implicació professional i
-                emocional amb els pacients.
-              </p>
+              <p class="text-gray-500 ">{t("referent-text")}</p>
             </div>
           </div>
         </div>
@@ -173,50 +156,38 @@ function Home() {
         <img src={aparatologia} alt="escáner 3d" />
         <div id="aparatología-text">
           <div className="title">
-            <span>Aparatologia </span>d'última generació
+            <span>{t("aparatologia")} </span>
+            {t("generacio")}
           </div>
-          <p>
-            Disposem d'un escaner 3D intraoral que escaneja la cavitat oral i
-            transfereix les dades digitalitzades a l'ordinador. D'aquesta manera
-            evitem els motlles d'impressió desagradables. Ens permet també
-            planificar en 3D el tractament més edient per a cada pacient de
-            forma multidisciplinar. A més de disposar d'Ortopantomografia,
-            telerradiografia y radiografies intraorals digitals que a més
-            d'obtenir unes imatges molt més precises, redueix la quantitat de
-            radiació que ha de rebre el pacient.
-          </p>
+          <p>{t("aparatologia-text")}</p>
         </div>
       </section>
       <section className="urgencias-section">
         <div id="urgencias-text">
           <div className="title">
-            <span>Urgències </span>dentals
+            <span>{t("urgencies")} </span>
+            {t("dentals")}
           </div>
-          <p>
-            Atenem tot tipus d'urgències. En cas que necesiti un dentista
-            d'urgència a Sant Martí, pot trucar de 8-21 i li buscarem una cita
-            amb el dentista que tinguem a la clínica d'urgència, ell o ella serà
-            qui avaluï la situació i decideixi què fer.
-          </p>
+          <p>{t("urgencies-text")}</p>
         </div>
         <div className="urgencias-sintomas">
           <ul>
             <li>
               <img className="urg-icon" src={diente} alt="diente" />
               <p>
-                <span>Sangrat</span> continu de la boca
+                <span>{t("sangrat")}</span> {t("continu")}
               </p>
             </li>
             <li>
               <img className="urg-icon" src={urgencias} alt="urgencias" />
               <p>
-                <span>Dolor</span> sever dental
+                <span>{t("dolor")}</span> {t("sever")}
               </p>
             </li>
             <li>
               <img className="urg-icon" src={herramientas} alt="tools" />
               <p>
-                <span>Dolor o pèrdua </span> d'una dent per traumatisme
+                <span>{t("perdua")} </span> {t("traumatisme")}
               </p>
             </li>
           </ul>
@@ -227,27 +198,17 @@ function Home() {
           <section className="financiacion-section">
             <div id="financiacion-text">
               <div className="title">
-                <span>Financiació </span>
+                <span>{t("financiacio")} </span>
               </div>
-              <p>
-                Sóm conscients que els tractaments dentals poden tenir un cost
-                elevat, és per això que ens adaptem al pacient al màxim. Comptem
-                amb diferents plans de pagaments i oferim financiació fins a
-                vint-i-quatre mesos sense interessos.
-              </p>
+              <p>{t("financiacio-text")}</p>
             </div>
           </section>
           <section className="tiempo-section">
             <div id="tiempo-text">
               <div className="title">
-                <span>Falta</span> de temps
+                <span>{t("temps")}</span>
               </div>
-              <p>
-                Tens problemes amb els horaris o no tens temps per a visitar-te?
-                No et preocupis, a Odoimplant oferim la possibilitad d'agrupar
-                diferents tractaments en una sola sessió o en el mínim possible
-                per a que no hagis de venir tants cops.
-              </p>
+              <p>{t("temps-text")}</p>
             </div>
           </section>
         </div>

@@ -10,12 +10,34 @@ import OrtodonciaDental from "./pages/OrtodonciaDental";
 import Treatments from "./pages/Treatments";
 import Galeria from "./pages/Galeria";
 import WhatsAppButton from "./components/WhatssButton";
+import React, { useState, useEffect } from "react";
+import { setLanguage, t } from "./utils/transllationFunction.js";
+import "./css/app.css";
 
 function App() {
+  const [language, setLangState] = useState("en");
+
+  useEffect(() => {
+    setLangState(navigator.language.split("-")[0] || "en");
+  }, []);
+
+  const changeLanguage = (lang) => {
+    setLanguage(lang);
+    setLangState(lang);
+  };
+
   return (
     <>
       <NavBar />
       <WhatsAppButton />
+      <div className="lang-btn-section">
+        <button className="lang-btn" onClick={() => changeLanguage("en")}>
+          Cat
+        </button>
+        <button className="lang-btn" onClick={() => changeLanguage("es")}>
+          Es
+        </button>
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
