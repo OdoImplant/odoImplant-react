@@ -89,7 +89,7 @@ function Home() {
               </span>
 
               <h1 class="text-xl font-semibold text-gray-700 capitalize ">
-                {t("Equip humà")}
+                {t("huma")}
               </h1>
 
               <p class="text-gray-500 ">{t("huma-text")}</p>
