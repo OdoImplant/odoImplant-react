@@ -5,6 +5,7 @@ import callLogo from "../assets/call-logo.png";
 import instaLogo from "../assets/vecteezy-instagram.png";
 import mailLogo from "../assets/mail-logo.png";
 import location from "../assets/location-logo.png";
+import { t } from "../utils/transllationFunction.js";
 
 function Contact() {
   const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
@@ -14,22 +15,16 @@ function Contact() {
       <header>
         <img src={entrada} alt="entrada" />
         <div className="intro-text-section">
-          <span id="odoimplant-title">Contacte</span>
-          <span>Demana cita</span>
+          <span id="odoimplant-title">{t("contacte")}</span>
+          <span>{t("demana-cita")}</span>
         </div>
       </header>
       <section className="clinica-section">
         <div className="clinica-text">
           <div className="title">
-            <span>Contacte </span>
+            <span>{t("contacte")} </span>
           </div>
-          <p>
-            Per obtenir més informació sobre els nostres serveis, omple el
-            nostre formulari i ens posarem en contacte amb tu el més aviat
-            possible. Alternativament, podeu trucar-nos o enviar-nos un correu
-            electrònic i estarem encantats de respondre a totes les vostres
-            preguntes.
-          </p>
+          <p>{t("contacte-text")}</p>
         </div>
       </section>
       <section className="contact-info-section">

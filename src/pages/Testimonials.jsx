@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { t } from "../utils/transllationFunction.js";
 
 function Testimonials() {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ function Testimonials() {
             </svg>
           </p>
           <h1 class="mt-3 text-2xl font-semibold text-gray-800 md:text-3xl">
-            Pàgina en construcció
+            {t("construccio")}
           </h1>
 
           <div class="flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
@@ -31,7 +32,7 @@ function Testimonials() {
               onClick={() => navigate("/")}
               class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-gray-500 rounded-lg shrink-0 sm:w-auto hover:bg-gray-600"
             >
-              Tornar a l'inici
+              {t("back")}
             </button>
           </div>
         </div>
