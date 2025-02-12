@@ -31,11 +31,14 @@ function App() {
       <NavBar />
       <WhatsAppButton />
       <div className="lang-btn-section">
-        <button className="lang-btn" onClick={() => changeLanguage("en")}>
+        <button className="lang-btn" onClick={() => changeLanguage("cat")}>
           Cat
         </button>
         <button className="lang-btn" onClick={() => changeLanguage("es")}>
           Es
+        </button>
+        <button className="lang-btn" onClick={() => changeLanguage("en")}>
+          En
         </button>
       </div>
       <Routes>

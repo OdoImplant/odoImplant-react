@@ -46,6 +46,11 @@
   display: flex;
 }
 
+.map-area {
+  width: 40%;
+  margin-right: 2rem;
+}
+
 @media (max-width: 830px) {
   .intro-text-section {
     margin-top: 1rem;
@@ -55,9 +60,12 @@
     margin-right: 0.8rem;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
   .map-area {
     width: 80%;
     margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
   }
 }

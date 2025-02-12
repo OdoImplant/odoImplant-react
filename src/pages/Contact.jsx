@@ -6,10 +6,9 @@ import instaLogo from "../assets/vecteezy-instagram.png";
 import mailLogo from "../assets/mail-logo.png";
 import location from "../assets/location-logo.png";
 import { t } from "../utils/transllationFunction.js";
+import API_KEY from "../utils/api.js";
 
 function Contact() {
-  const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-
   return (
     <>
       <header>

@@ -1,8 +1,9 @@
 import cat from "../translations/cat.json";
 import es from "../translations/es.json";
+import en from "../translations/en.json";
 
 // Store available translations
-const translations = { cat, es };
+const translations = { cat, es, en };
 
 // Default language (can be changed dynamically)
 let currentLanguage = "cat";
