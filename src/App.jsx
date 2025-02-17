@@ -15,10 +15,12 @@ import { setLanguage, t } from "./utils/transllationFunction.js";
 import "./css/app.css";
 
 function App() {
-  const [language, setLangState] = useState("en");
+  const [language, setLangState] = useState("cat");
 
   useEffect(() => {
-    setLangState(navigator.language.split("-")[0] || "en");
+    const defaultLang = "cat";
+    setLanguage(defaultLang);
+    setLangState(defaultLang);
   }, []);
 
   const changeLanguage = (lang) => {
