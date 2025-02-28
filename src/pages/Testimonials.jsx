@@ -6,6 +6,7 @@ import testimoni2 from "../assets/testimoni2.mp4";
 import testimoni3 from "../assets/testimoni3.mp4";
 import testimoni4 from "../assets/testimoni4.mp4";
 import testimoni5 from "../assets/testimoni5.mp4";
+import testimoni6 from "../assets/testimoni6.mp4";
 
 function Testimonials() {
   return (
@@ -24,6 +25,9 @@ function Testimonials() {
       </div>
       <div className="video">
         <LazyVideo videoSrc={testimoni5} thumbnail="" />
+      </div>
+      <div className="video">
+        <LazyVideo videoSrc={testimoni6} thumbnail="" />
       </div>
     </section>
   );
