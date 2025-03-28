@@ -21,4 +21,7 @@
   .video {
     margin: 1rem;
   }
+  .vid-sect {
+    flex-direction: column;
+  }
 }
