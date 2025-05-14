@@ -81,6 +81,14 @@ function NavBar() {
           >
             {t("contacte")}
           </NavLink>
+          <NavLink
+            to="/fisio"
+            id="fisio-link"
+            className={selected === "/fisio" ? "active" : ""}
+            onClick={() => selectTab("/fisio")}
+          >
+            {t("fisio")}
+          </NavLink>
         </div>
 
         <div id="right-nav">

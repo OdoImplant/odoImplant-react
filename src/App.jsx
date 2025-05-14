@@ -10,6 +10,7 @@ import OrtodonciaDental from "./pages/OrtodonciaDental";
 import Treatments from "./pages/Treatments";
 import Galeria from "./pages/Galeria";
 import WhatsAppButton from "./components/WhatssButton";
+import Fisio from "./pages/Fisio.jsx";
 import React, { useState, useEffect } from "react";
 import { setLanguage, t } from "./utils/transllationFunction.js";
 import "./css/app.css";
@@ -51,6 +52,7 @@ function App() {
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/galery" element={<Galeria />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/fisio" element={<Fisio />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

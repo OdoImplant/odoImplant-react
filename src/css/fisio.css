@@ -1,0 +1,19 @@
+.fisio-top {
+  display: flex;
+  margin: 2rem 4rem;
+  justify-content: center;
+}
+.fisio-top img {
+  width: 30rem;
+  height: auto;
+  filter: grayscale(100%);
+}
+.fisio-top p {
+  width: 40%;
+  height: auto;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-size: large;
+  color: #98999a;
+}
