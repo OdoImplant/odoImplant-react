@@ -9,6 +9,8 @@ import manuel from "../assets/manuel.png";
 import draGarcia from "../assets/dragarcia.png";
 import soledad from "../assets/soledad.png";
 import { t } from "../utils/transllationFunction.js";
+import dana from "../assets/DanaHuttunen.png";
+import crisRod from "../assets/CrisRodriguez.png";
 
 function About() {
   return (
@@ -93,6 +95,36 @@ function About() {
                 <h3 class="text-lg font-medium text-teal-500">{t("bea")}</h3>
                 <span class="mt-1 font-medium text-gray-600 ">
                   {t("bea-title")}
+                </span>
+              </div>
+            </div>
+            <div class="w-full max-w-xs text-center">
+              <img
+                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                src={dana}
+                alt="Dana"
+              />
+
+              <div class="mt-2">
+                <h3 class="text-lg font-medium text-teal-500 ">{t("dana")}</h3>
+                <span class="mt-1 font-medium text-gray-600 ">
+                  {t("dana-title")}
+                </span>
+              </div>
+            </div>
+            <div class="w-full max-w-xs text-center">
+              <img
+                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                src={crisRod}
+                alt="CrisRodriguez"
+              />
+
+              <div class="mt-2">
+                <h3 class="text-lg font-medium text-teal-500 ">
+                  {t("crisRod")}
+                </h3>
+                <span class="mt-1 font-medium text-gray-600 ">
+                  {t("crisRod-title")}
                 </span>
               </div>
             </div>
