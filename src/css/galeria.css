@@ -1,23 +1,11 @@
-.galery-top {
+.galery-img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
-}
-
-#carroussel-container {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.rounded-l {
-  margin: 2rem;
-  width: 60%;
-  height: auto;
-}
-
-.rounded-l img {
   filter: grayscale(100%);
+}
+.galery-img img {
+  width: 40rem;
+  height: auto;
+  margin: 3rem;
 }
