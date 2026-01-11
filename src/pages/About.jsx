@@ -41,7 +41,7 @@ function About() {
           <div class="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={ibern}
                 alt="Dra-Ibern"
               />
@@ -56,7 +56,7 @@ function About() {
 
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={drGarcia}
                 alt="Dr-Garcia-Linares"
               />
@@ -71,7 +71,7 @@ function About() {
 
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={valdueza}
                 alt="Dra-Valdueza"
               />
@@ -86,7 +86,7 @@ function About() {
 
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={hernandez}
                 alt="Dra-hernandez"
               />
@@ -100,41 +100,7 @@ function About() {
             </div>
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src={dana}
-                alt="Dana"
-              />
-
-              <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 ">{t("dana")}</h3>
-                <span class="mt-1 font-medium text-gray-600 ">
-                  {t("dana-title")}
-                </span>
-              </div>
-            </div>
-            <div class="w-full max-w-xs text-center">
-              <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
-                src={crisRod}
-                alt="CrisRodriguez"
-              />
-
-              <div class="mt-2">
-                <h3 class="text-lg font-medium text-teal-500 ">
-                  {t("crisRod")}
-                </h3>
-                <span class="mt-1 font-medium text-gray-600 ">
-                  {t("crisRod-title")}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container px-6 py-8 mx-auto">
-          <div class="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <div class="w-full max-w-xs text-center">
-              <img
-                class="object-cover object-center w-full h-30 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={didac}
                 alt="Didac"
               />
@@ -146,10 +112,9 @@ function About() {
                 </span>
               </div>
             </div>
-
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={manuel}
                 alt="Manuel"
               />
@@ -163,10 +128,9 @@ function About() {
                 </span>
               </div>
             </div>
-
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={draGarcia}
                 alt="Dra-Garcia"
               />
@@ -180,10 +144,23 @@ function About() {
                 </span>
               </div>
             </div>
-
             <div class="w-full max-w-xs text-center">
               <img
-                class="object-cover object-center w-full h-55 mx-auto rounded-lg"
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
+                src={dana}
+                alt="Dana"
+              />
+
+              <div class="mt-2">
+                <h3 class="text-lg font-medium text-teal-500 ">{t("dana")}</h3>
+                <span class="mt-1 font-medium text-gray-600 ">
+                  {t("dana-title")}
+                </span>
+              </div>
+            </div>
+            <div class="w-full max-w-xs text-center">
+              <img
+                class="object-cover object-center w-full h-96 mx-auto rounded-lg"
                 src={soledad}
                 alt="Soledad"
               />
